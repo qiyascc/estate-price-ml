@@ -1,0 +1,1676 @@
+{
+  "elan_sayi": 872872,
+  "umumi": {
+    "elan_sayi": 872872,
+    "orta_qiymet": 158071.11141610684,
+    "medyan_qiymet": 135000.0,
+    "medyan_kv_metr_qiymet": 1750.0,
+    "min_qiymet": 90.0,
+    "max_qiymet": 1000000.0
+  },
+  "emlak_novleri": [
+    {
+      "property_type": "Mənzil / Yeni tikili",
+      "elan_sayi": 480225,
+      "medyan_qiymet": 160000.0
+    },
+    {
+      "property_type": "Mənzil / Köhnə tikili",
+      "elan_sayi": 186905,
+      "medyan_qiymet": 134600.0
+    },
+    {
+      "property_type": "Həyət/Bağ evi",
+      "elan_sayi": 122164,
+      "medyan_qiymet": 112000.0
+    },
+    {
+      "property_type": "Yeni tikili",
+      "elan_sayi": 21467,
+      "medyan_qiymet": 135000.0
+    },
+    {
+      "property_type": "Obyekt",
+      "elan_sayi": 17235,
+      "medyan_qiymet": 2000.0
+    },
+    {
+      "property_type": "Ofis",
+      "elan_sayi": 10791,
+      "medyan_qiymet": 1500.0
+    },
+    {
+      "property_type": "Köhnə tikili",
+      "elan_sayi": 8667,
+      "medyan_qiymet": 123000.0
+    },
+    {
+      "property_type": "Mənzil",
+      "elan_sayi": 3534,
+      "medyan_qiymet": 235500.0
+    },
+    {
+      "property_type": "Bina evi menzil / Yeni tikili",
+      "elan_sayi": 2446,
+      "medyan_qiymet": 68300.0
+    },
+    {
+      "property_type": "Villa / Həyət evi",
+      "elan_sayi": 1935,
+      "medyan_qiymet": 96000.0
+    },
+    {
+      "property_type": "Həyət evi / Villa",
+      "elan_sayi": 1843,
+      "medyan_qiymet": 110000.0
+    },
+    {
+      "property_type": "Mənzil Yeni tikili",
+      "elan_sayi": 1796,
+      "medyan_qiymet": 110000.0
+    },
+    {
+      "property_type": "Həyət evi",
+      "elan_sayi": 1727,
+      "medyan_qiymet": 82000.0
+    },
+    {
+      "property_type": "Mənzillər",
+      "elan_sayi": 1559,
+      "medyan_qiymet": 68000.0
+    },
+    {
+      "property_type": "Bina evi menzil / Köhnə tikili",
+      "elan_sayi": 1341,
+      "medyan_qiymet": 80000.0
+    },
+    {
+      "property_type": "Ev / villa",
+      "elan_sayi": 1229,
+      "medyan_qiymet": 55000.0
+    },
+    {
+      "property_type": "",
+      "elan_sayi": 936,
+      "medyan_qiymet": 3000.0
+    },
+    {
+      "property_type": "Houses for sale",
+      "elan_sayi": 893,
+      "medyan_qiymet": 89000.0
+    },
+    {
+      "property_type": "Bağ evləri",
+      "elan_sayi": 781,
+      "medyan_qiymet": 278000.0
+    },
+    {
+      "property_type": "Həyət evi/Bağ evi",
+      "elan_sayi": 624,
+      "medyan_qiymet": 97500.0
+    },
+    {
+      "property_type": "Mənzil Köhnə tikili",
+      "elan_sayi": 394,
+      "medyan_qiymet": 125000.0
+    },
+    {
+      "property_type": "New Building",
+      "elan_sayi": 361,
+      "medyan_qiymet": 130000.0
+    },
+    {
+      "property_type": "Həyət evi / Villa / 3 otaq",
+      "elan_sayi": 358,
+      "medyan_qiymet": 67500.0
+    },
+    {
+      "property_type": "Torpaq",
+      "elan_sayi": 317,
+      "medyan_qiymet": 110000.0
+    },
+    {
+      "property_type": "Həyət evi / Villa / 4 otaq",
+      "elan_sayi": 298,
+      "medyan_qiymet": 105000.0
+    },
+    {
+      "property_type": "Bağ evi",
+      "elan_sayi": 275,
+      "medyan_qiymet": 5000.0
+    },
+    {
+      "property_type": "Obyekt / Ofis",
+      "elan_sayi": 266,
+      "medyan_qiymet": 2500.0
+    },
+    {
+      "property_type": "Bağ",
+      "elan_sayi": 253,
+      "medyan_qiymet": 180000.0
+    },
+    {
+      "property_type": "Secondary Market",
+      "elan_sayi": 244,
+      "medyan_qiymet": 136000.0
+    },
+    {
+      "property_type": "Long term rental houses",
+      "elan_sayi": 195,
+      "medyan_qiymet": 300.0
+    },
+    {
+      "property_type": "Fərdi yaşayış evi",
+      "elan_sayi": 164,
+      "medyan_qiymet": 76000.0
+    },
+    {
+      "property_type": "Həyət evi / Villa / 2 otaq",
+      "elan_sayi": 128,
+      "medyan_qiymet": 35500.0
+    },
+    {
+      "property_type": "Həyət evi / Villa / 5 otaq",
+      "elan_sayi": 115,
+      "medyan_qiymet": 120000.0
+    },
+    {
+      "property_type": "Qeyri yaşayış sahəsi",
+      "elan_sayi": 108,
+      "medyan_qiymet": 146500.0
+    },
+    {
+      "property_type": "Daily rent of houses",
+      "elan_sayi": 105,
+      "medyan_qiymet": 175.0
+    },
+    {
+      "property_type": "Villa",
+      "elan_sayi": 97,
+      "medyan_qiymet": 300.0
+    },
+    {
+      "property_type": "Obyekt / 1 otaq",
+      "elan_sayi": 89,
+      "medyan_qiymet": 69000.0
+    },
+    {
+      "property_type": "AZ - Dachas rent",
+      "elan_sayi": 82,
+      "medyan_qiymet": 200.0
+    },
+    {
+      "property_type": "Həyət evi / Villa / 6 otaq",
+      "elan_sayi": 78,
+      "medyan_qiymet": 160000.0
+    },
+    {
+      "property_type": "Kommersiya obyekti",
+      "elan_sayi": 72,
+      "medyan_qiymet": 240000.0
+    },
+    {
+      "property_type": "Qaraj",
+      "elan_sayi": 67,
+      "medyan_qiymet": 35500.0
+    },
+    {
+      "property_type": "Yarım tikili",
+      "elan_sayi": 52,
+      "medyan_qiymet": 80000.0
+    },
+    {
+      "property_type": "Warehouse and workshop rentals",
+      "elan_sayi": 48,
+      "medyan_qiymet": 3100.0
+    },
+    {
+      "property_type": "AZ - Sale of dachas",
+      "elan_sayi": 42,
+      "medyan_qiymet": 139500.0
+    },
+    {
+      "property_type": "Office rentals",
+      "elan_sayi": 40,
+      "medyan_qiymet": 950.0
+    },
+    {
+      "property_type": "Obyekt / 2 otaq",
+      "elan_sayi": 40,
+      "medyan_qiymet": 132500.0
+    },
+    {
+      "property_type": "Other commercial real estate rentals",
+      "elan_sayi": 39,
+      "medyan_qiymet": 700.0
+    },
+    {
+      "property_type": "For long term",
+      "elan_sayi": 34,
+      "medyan_qiymet": 260.0
+    },
+    {
+      "property_type": "Həyət evi / Villa / 1 otaq",
+      "elan_sayi": 31,
+      "medyan_qiymet": 300.0
+    },
+    {
+      "property_type": "Obyekt / 3 otaq",
+      "elan_sayi": 29,
+      "medyan_qiymet": 150000.0
+    },
+    {
+      "property_type": "Həyət evi / Villa / 7 otaq",
+      "elan_sayi": 29,
+      "medyan_qiymet": 150000.0
+    },
+    {
+      "property_type": "Rent an apartment",
+      "elan_sayi": 28,
+      "medyan_qiymet": 350.0
+    },
+    {
+      "property_type": "Retail rentals",
+      "elan_sayi": 27,
+      "medyan_qiymet": 700.0
+    },
+    {
+      "property_type": "A frame",
+      "elan_sayi": 23,
+      "medyan_qiymet": 200.0
+    },
+    {
+      "property_type": "Yeni Tikili",
+      "elan_sayi": 23,
+      "medyan_qiymet": 800.0
+    },
+    {
+      "property_type": "Həyət evi / Villa / 8 otaq",
+      "elan_sayi": 20,
+      "medyan_qiymet": 152500.0
+    },
+    {
+      "property_type": "AZ - Garage for rent",
+      "elan_sayi": 15,
+      "medyan_qiymet": 300.0
+    },
+    {
+      "property_type": "Building rentals",
+      "elan_sayi": 14,
+      "medyan_qiymet": 851.0
+    },
+    {
+      "property_type": "AZ - Sell a garage",
+      "elan_sayi": 12,
+      "medyan_qiymet": 22500.0
+    },
+    {
+      "property_type": "Obyekt / 4 otaq",
+      "elan_sayi": 12,
+      "medyan_qiymet": 364750.0
+    },
+    {
+      "property_type": "Obyekt / 5 otaq",
+      "elan_sayi": 12,
+      "medyan_qiymet": 397500.0
+    },
+    {
+      "property_type": "Ofis / 1 otaq",
+      "elan_sayi": 11,
+      "medyan_qiymet": 700.0
+    },
+    {
+      "property_type": "Rooms for sale",
+      "elan_sayi": 10,
+      "medyan_qiymet": 120000.0
+    },
+    {
+      "property_type": "Restaurant and cafe rentals",
+      "elan_sayi": 9,
+      "medyan_qiymet": 1700.0
+    },
+    {
+      "property_type": "Həyət evi / Villa / 10 otaq",
+      "elan_sayi": 8,
+      "medyan_qiymet": 231000.0
+    },
+    {
+      "property_type": "Köhnə Tikili",
+      "elan_sayi": 8,
+      "medyan_qiymet": 625.0
+    },
+    {
+      "property_type": "Həyət evi / Villa / Yeni tikili",
+      "elan_sayi": 6,
+      "medyan_qiymet": 95500.0
+    },
+    {
+      "property_type": "Bina evi menzil / K√∂hn…ô tikili",
+      "elan_sayi": 5,
+      "medyan_qiymet": 500.0
+    },
+    {
+      "property_type": "Həyət evi / Villa / 9 otaq",
+      "elan_sayi": 5,
+      "medyan_qiymet": 205000.0
+    },
+    {
+      "property_type": "Ofis / 2 otaq",
+      "elan_sayi": 5,
+      "medyan_qiymet": 1150.0
+    }
+  ],
+  "sahibkar_vasitechi": {
+    "owner": {
+      "elan_sayi": 83099,
+      "medyan_qiymet": 140000.0,
+      "medyan_kv_metr": 1590.0
+    },
+    "agent": {
+      "elan_sayi": 507155,
+      "medyan_qiymet": 195000.0,
+      "medyan_kv_metr": 2400.0
+    },
+    "ferq_faiz": 50.943396226415096
+  },
+  "kiraye_gelirliligi": [
+    {
+      "district": "Xəzər",
+      "satis_medyan": 220000.0,
+      "kiraye_medyan": 3000.0,
+      "illik_gelirlilik_faiz": 16.363636363636363
+    },
+    {
+      "district": "Pirallahı",
+      "satis_medyan": 85000.0,
+      "kiraye_medyan": 1000.0,
+      "illik_gelirlilik_faiz": 14.117647058823529
+    },
+    {
+      "district": "Xətai",
+      "satis_medyan": 200000.0,
+      "kiraye_medyan": 999.0,
+      "illik_gelirlilik_faiz": 5.994
+    },
+    {
+      "district": "Qaradağ",
+      "satis_medyan": 120000.0,
+      "kiraye_medyan": 530.0,
+      "illik_gelirlilik_faiz": 5.3
+    },
+    {
+      "district": "Sabunçu",
+      "satis_medyan": 158000.0,
+      "kiraye_medyan": 650.0,
+      "illik_gelirlilik_faiz": 4.936708860759493
+    },
+    {
+      "district": "Səbail",
+      "satis_medyan": 275000.0,
+      "kiraye_medyan": 1100.0,
+      "illik_gelirlilik_faiz": 4.8
+    },
+    {
+      "district": "Binəqədi",
+      "satis_medyan": 185000.0,
+      "kiraye_medyan": 690.0,
+      "illik_gelirlilik_faiz": 4.475675675675675
+    },
+    {
+      "district": "",
+      "satis_medyan": 115000.0,
+      "kiraye_medyan": 420.0,
+      "illik_gelirlilik_faiz": 4.3826086956521735
+    },
+    {
+      "district": "Nəsimi",
+      "satis_medyan": 279000.0,
+      "kiraye_medyan": 1000.0,
+      "illik_gelirlilik_faiz": 4.301075268817205
+    },
+    {
+      "district": "Yasamal",
+      "satis_medyan": 220000.0,
+      "kiraye_medyan": 750.0,
+      "illik_gelirlilik_faiz": 4.090909090909091
+    },
+    {
+      "district": "Suraxanı",
+      "satis_medyan": 133000.0,
+      "kiraye_medyan": 450.0,
+      "illik_gelirlilik_faiz": 4.06015037593985
+    },
+    {
+      "district": "Nizami",
+      "satis_medyan": 193000.0,
+      "kiraye_medyan": 650.0,
+      "illik_gelirlilik_faiz": 4.041450777202073
+    },
+    {
+      "district": "Nərimanov",
+      "satis_medyan": 270000.0,
+      "kiraye_medyan": 900.0,
+      "illik_gelirlilik_faiz": 4.0
+    }
+  ],
+  "segmentler": {
+    "satis": {
+      "elan_sayi": 609778,
+      "holdout_metrikalar": {
+        "n_train": 487822,
+        "n_test": 121956,
+        "mae": 38625.08742055968,
+        "rmse": 68201.0626368424,
+        "medyan_xeta": 20238.839863635643,
+        "r2": 0.8170434598809131,
+        "mape": 18.543221139330576
+      },
+      "cv_metrikalar": {
+        "n": 609778,
+        "folds": 4,
+        "mae": 38853.51776064229,
+        "rmse": 68369.85307569496,
+        "medyan_xeta": 20436.892341123086,
+        "r2": 0.8156629597907862,
+        "mape": 18.623825643497074
+      },
+      "bazar": {
+        "elan_sayi": 609778,
+        "orta_qiymet": 225770.9820738039,
+        "medyan_qiymet": 185000.0,
+        "medyan_kv_metr_qiymet": 2329.5454545454545,
+        "min_qiymet": 33000.0,
+        "max_qiymet": 1000000.0
+      },
+      "bolge_uzre_qiymet": [
+        {
+          "district": "Nərimanov",
+          "elan_sayi": 51089,
+          "medyan_qiymet": 270000.0,
+          "orta_qiymet": 303006.19826185674,
+          "medyan_kv_metr": 3058.252427184466
+        },
+        {
+          "district": "Nəsimi",
+          "elan_sayi": 59841,
+          "medyan_qiymet": 279000.0,
+          "orta_qiymet": 311962.1275379756,
+          "medyan_kv_metr": 2880.9523809523807
+        },
+        {
+          "district": "Yasamal",
+          "elan_sayi": 76676,
+          "medyan_qiymet": 220000.0,
+          "orta_qiymet": 254506.7145260577,
+          "medyan_kv_metr": 2716.6666666666665
+        },
+        {
+          "district": "Səbail",
+          "elan_sayi": 17200,
+          "medyan_qiymet": 275000.0,
+          "orta_qiymet": 331273.2701744186,
+          "medyan_kv_metr": 2692.3076923076924
+        },
+        {
+          "district": "Nizami",
+          "elan_sayi": 36908,
+          "medyan_qiymet": 193000.0,
+          "orta_qiymet": 213019.4020808497,
+          "medyan_kv_metr": 2597.7301387137454
+        },
+        {
+          "district": "Xətai",
+          "elan_sayi": 89948,
+          "medyan_qiymet": 200000.0,
+          "orta_qiymet": 250468.90015342197,
+          "medyan_kv_metr": 2465.753424657534
+        },
+        {
+          "district": "Binəqədi",
+          "elan_sayi": 42596,
+          "medyan_qiymet": 185000.0,
+          "orta_qiymet": 200083.4925345103,
+          "medyan_kv_metr": 2339.622641509434
+        },
+        {
+          "district": "Sabunçu",
+          "elan_sayi": 25988,
+          "medyan_qiymet": 158000.0,
+          "orta_qiymet": 199641.10004617515,
+          "medyan_kv_metr": 1906.6666666666667
+        },
+        {
+          "district": "Suraxanı",
+          "elan_sayi": 21301,
+          "medyan_qiymet": 133000.0,
+          "orta_qiymet": 142941.98666729263,
+          "medyan_kv_metr": 1830.7692307692307
+        },
+        {
+          "district": "",
+          "elan_sayi": 162554,
+          "medyan_qiymet": 115000.0,
+          "orta_qiymet": 150248.177688645,
+          "medyan_kv_metr": 1509.090909090909
+        },
+        {
+          "district": "Qaradağ",
+          "elan_sayi": 1969,
+          "medyan_qiymet": 120000.0,
+          "orta_qiymet": 132026.9781615033,
+          "medyan_kv_metr": 1446.1538461538462
+        },
+        {
+          "district": "Xəzər",
+          "elan_sayi": 23517,
+          "medyan_qiymet": 220000.0,
+          "orta_qiymet": 274398.3734319854,
+          "medyan_kv_metr": 1433.3333333333333
+        },
+        {
+          "district": "Pirallahı",
+          "elan_sayi": 191,
+          "medyan_qiymet": 85000.0,
+          "orta_qiymet": 134807.32460732985,
+          "medyan_kv_metr": 1223.5294117647059
+        }
+      ],
+      "metro_uzre_qiymet": [
+        {
+          "metro": "Bakmil",
+          "elan_sayi": 24,
+          "medyan_qiymet": 325000.0,
+          "orta_qiymet": 344875.0,
+          "medyan_kv_metr": 4001.393866985265
+        },
+        {
+          "metro": "Sahil",
+          "elan_sayi": 469,
+          "medyan_qiymet": 290000.0,
+          "orta_qiymet": 352462.86993603414,
+          "medyan_kv_metr": 3733.3333333333335
+        },
+        {
+          "metro": "28 May",
+          "elan_sayi": 5407,
+          "medyan_qiymet": 325000.0,
+          "orta_qiymet": 356624.1255779545,
+          "medyan_kv_metr": 3234.817813765182
+        },
+        {
+          "metro": "İçərişəhər",
+          "elan_sayi": 817,
+          "medyan_qiymet": 260000.0,
+          "orta_qiymet": 337907.52509179927,
+          "medyan_kv_metr": 3227.2727272727275
+        },
+        {
+          "metro": "Elmlər Akademiyası",
+          "elan_sayi": 3342,
+          "medyan_qiymet": 280000.0,
+          "orta_qiymet": 325909.4254937163,
+          "medyan_kv_metr": 3181.818181818182
+        },
+        {
+          "metro": "Şah İsmayıl Xətai",
+          "elan_sayi": 5584,
+          "medyan_qiymet": 320000.0,
+          "orta_qiymet": 349861.4534383954,
+          "medyan_kv_metr": 3130.6379520520113
+        },
+        {
+          "metro": "Nəriman Nərimanov",
+          "elan_sayi": 5611,
+          "medyan_qiymet": 270000.0,
+          "orta_qiymet": 299627.4717519159,
+          "medyan_kv_metr": 3076.923076923077
+        },
+        {
+          "metro": "Gənclik",
+          "elan_sayi": 4064,
+          "medyan_qiymet": 250000.0,
+          "orta_qiymet": 296680.64788385824,
+          "medyan_kv_metr": 3072.0779220779223
+        },
+        {
+          "metro": "Nizami",
+          "elan_sayi": 2175,
+          "medyan_qiymet": 339000.0,
+          "orta_qiymet": 347644.0551724138,
+          "medyan_kv_metr": 3071.4285714285716
+        },
+        {
+          "metro": "Qara Qarayev",
+          "elan_sayi": 3997,
+          "medyan_qiymet": 220000.0,
+          "orta_qiymet": 231836.46059544658,
+          "medyan_kv_metr": 2866.6666666666665
+        },
+        {
+          "metro": "20 Yanvar",
+          "elan_sayi": 3093,
+          "medyan_qiymet": 216000.0,
+          "orta_qiymet": 225237.62851600387,
+          "medyan_kv_metr": 2802.6315789473683
+        },
+        {
+          "metro": "Ulduz",
+          "elan_sayi": 32,
+          "medyan_qiymet": 179440.0,
+          "orta_qiymet": 222235.0,
+          "medyan_kv_metr": 2688.8888888888887
+        },
+        {
+          "metro": "8 Noyabr",
+          "elan_sayi": 1306,
+          "medyan_qiymet": 280000.0,
+          "orta_qiymet": 293383.6623277182,
+          "medyan_kv_metr": 2647.0088626292463
+        },
+        {
+          "metro": "Azadlıq prospekti",
+          "elan_sayi": 2479,
+          "medyan_qiymet": 222000.0,
+          "orta_qiymet": 233794.58733360225,
+          "medyan_kv_metr": 2588.235294117647
+        },
+        {
+          "metro": "Memar Əcəmi",
+          "elan_sayi": 3226,
+          "medyan_qiymet": 178000.0,
+          "orta_qiymet": 201761.56230626162,
+          "medyan_kv_metr": 2583.3333333333335
+        },
+        {
+          "metro": "İnşaatçılar",
+          "elan_sayi": 5460,
+          "medyan_qiymet": 210000.0,
+          "orta_qiymet": 224943.3586080586,
+          "medyan_kv_metr": 2557.7935222672068
+        },
+        {
+          "metro": "Neftçilər",
+          "elan_sayi": 4071,
+          "medyan_qiymet": 180000.0,
+          "orta_qiymet": 199036.39130434784,
+          "medyan_kv_metr": 2545.4545454545455
+        },
+        {
+          "metro": "Nəsimi",
+          "elan_sayi": 1203,
+          "medyan_qiymet": 220000.0,
+          "orta_qiymet": 246861.14048212802,
+          "medyan_kv_metr": 2426.03550295858
+        },
+        {
+          "metro": "Xalqlar Dostluğu",
+          "elan_sayi": 3755,
+          "medyan_qiymet": 183000.0,
+          "orta_qiymet": 191311.36857523303,
+          "medyan_kv_metr": 2408.3333333333335
+        },
+        {
+          "metro": "Həzi Aslanov",
+          "elan_sayi": 10517,
+          "medyan_qiymet": 188000.0,
+          "orta_qiymet": 200330.33659788914,
+          "medyan_kv_metr": 2394.9579831932774
+        },
+        {
+          "metro": "Əhmədli",
+          "elan_sayi": 4169,
+          "medyan_qiymet": 183000.0,
+          "orta_qiymet": 193788.7704485488,
+          "medyan_kv_metr": 2333.3333333333335
+        },
+        {
+          "metro": "",
+          "elan_sayi": 534288,
+          "medyan_qiymet": 180000.0,
+          "orta_qiymet": 221886.51604190998,
+          "medyan_kv_metr": 2250.0
+        },
+        {
+          "metro": "Avtovağzal",
+          "elan_sayi": 594,
+          "medyan_qiymet": 155000.0,
+          "orta_qiymet": 169707.56902356903,
+          "medyan_kv_metr": 2189.157014157014
+        },
+        {
+          "metro": "Dərnəgül",
+          "elan_sayi": 1526,
+          "medyan_qiymet": 137000.0,
+          "orta_qiymet": 146541.12647444298,
+          "medyan_kv_metr": 1995.2380952380952
+        },
+        {
+          "metro": "Koroğlu",
+          "elan_sayi": 2535,
+          "medyan_qiymet": 178000.0,
+          "orta_qiymet": 202248.2721893491,
+          "medyan_kv_metr": 1466.6666666666667
+        },
+        {
+          "metro": "Xocəsən",
+          "elan_sayi": 30,
+          "medyan_qiymet": 125000.0,
+          "orta_qiymet": 140033.33333333334,
+          "medyan_kv_metr": 836.6666666666667
+        }
+      ]
+    },
+    "kiraye": {
+      "elan_sayi": 263019,
+      "holdout_metrikalar": {
+        "n_train": 210415,
+        "n_test": 52604,
+        "mae": 309.9751136898606,
+        "rmse": 686.7741166492162,
+        "medyan_xeta": 110.78666123600871,
+        "r2": 0.6288356651840351,
+        "mape": 37.08549370233338
+      },
+      "cv_metrikalar": {
+        "n": 263019,
+        "folds": 4,
+        "mae": 314.4897110155436,
+        "rmse": 700.9081840270499,
+        "medyan_xeta": 111.87842918396143,
+        "r2": 0.6364907683049552,
+        "mape": 36.368144750244355
+      },
+      "bazar": {
+        "elan_sayi": 263019,
+        "orta_qiymet": 1123.0777852550575,
+        "medyan_qiymet": 800.0,
+        "medyan_kv_metr_qiymet": 10.0,
+        "min_qiymet": 90.0,
+        "max_qiymet": 9500.0
+      },
+      "bolge_uzre_qiymet": [
+        {
+          "district": "Səbail",
+          "elan_sayi": 13791,
+          "medyan_qiymet": 1100.0,
+          "orta_qiymet": 1558.7311289971722,
+          "medyan_kv_metr": 13.0
+        },
+        {
+          "district": "Nəsimi",
+          "elan_sayi": 45173,
+          "medyan_qiymet": 1000.0,
+          "orta_qiymet": 1248.1632612401213,
+          "medyan_kv_metr": 11.515151515151516
+        },
+        {
+          "district": "Nərimanov",
+          "elan_sayi": 35908,
+          "medyan_qiymet": 900.0,
+          "orta_qiymet": 1158.4320207196167,
+          "medyan_kv_metr": 11.11111111111111
+        },
+        {
+          "district": "Xətai",
+          "elan_sayi": 41572,
+          "medyan_qiymet": 999.0,
+          "orta_qiymet": 1292.8944722409315,
+          "medyan_kv_metr": 11.0
+        },
+        {
+          "district": "Xəzər",
+          "elan_sayi": 5843,
+          "medyan_qiymet": 3000.0,
+          "orta_qiymet": 2812.4090364538765,
+          "medyan_kv_metr": 11.0
+        },
+        {
+          "district": "Yasamal",
+          "elan_sayi": 47043,
+          "medyan_qiymet": 750.0,
+          "orta_qiymet": 958.8597240822227,
+          "medyan_kv_metr": 10.606060606060606
+        },
+        {
+          "district": "Nizami",
+          "elan_sayi": 13941,
+          "medyan_qiymet": 650.0,
+          "orta_qiymet": 790.7698156516749,
+          "medyan_kv_metr": 9.845070422535212
+        },
+        {
+          "district": "Sabunçu",
+          "elan_sayi": 6991,
+          "medyan_qiymet": 650.0,
+          "orta_qiymet": 1901.2606207981692,
+          "medyan_kv_metr": 9.166666666666666
+        },
+        {
+          "district": "Binəqədi",
+          "elan_sayi": 13349,
+          "medyan_qiymet": 690.0,
+          "orta_qiymet": 852.4790621020301,
+          "medyan_kv_metr": 9.090909090909092
+        },
+        {
+          "district": "Pirallahı",
+          "elan_sayi": 13,
+          "medyan_qiymet": 1000.0,
+          "orta_qiymet": 1426.923076923077,
+          "medyan_kv_metr": 8.571428571428571
+        },
+        {
+          "district": "Suraxanı",
+          "elan_sayi": 3006,
+          "medyan_qiymet": 450.0,
+          "orta_qiymet": 557.4993346640053,
+          "medyan_kv_metr": 7.5
+        },
+        {
+          "district": "Qaradağ",
+          "elan_sayi": 337,
+          "medyan_qiymet": 530.0,
+          "orta_qiymet": 1397.7507418397627,
+          "medyan_kv_metr": 7.3076923076923075
+        },
+        {
+          "district": "",
+          "elan_sayi": 36052,
+          "medyan_qiymet": 420.0,
+          "orta_qiymet": 631.4299622767114,
+          "medyan_kv_metr": 6.875
+        }
+      ],
+      "metro_uzre_qiymet": [
+        {
+          "metro": "Sahil",
+          "elan_sayi": 1122,
+          "medyan_qiymet": 1200.0,
+          "orta_qiymet": 1630.426916221034,
+          "medyan_kv_metr": 15.0
+        },
+        {
+          "metro": "İçərişəhər",
+          "elan_sayi": 1030,
+          "medyan_qiymet": 1000.0,
+          "orta_qiymet": 1456.5436893203882,
+          "medyan_kv_metr": 14.285714285714286
+        },
+        {
+          "metro": "Bakmil",
+          "elan_sayi": 37,
+          "medyan_qiymet": 1200.0,
+          "orta_qiymet": 1677.8108108108108,
+          "medyan_kv_metr": 13.571428571428571
+        },
+        {
+          "metro": "28 May",
+          "elan_sayi": 5621,
+          "medyan_qiymet": 1100.0,
+          "orta_qiymet": 1302.7596513075964,
+          "medyan_kv_metr": 12.491666666666667
+        },
+        {
+          "metro": "Şah İsmayıl Xətai",
+          "elan_sayi": 5800,
+          "medyan_qiymet": 1100.0,
+          "orta_qiymet": 1264.5827586206897,
+          "medyan_kv_metr": 12.222222222222221
+        },
+        {
+          "metro": "Nizami",
+          "elan_sayi": 2463,
+          "medyan_qiymet": 1200.0,
+          "orta_qiymet": 1287.512383272432,
+          "medyan_kv_metr": 11.428571428571429
+        },
+        {
+          "metro": "Elmlər Akademiyası",
+          "elan_sayi": 2117,
+          "medyan_qiymet": 950.0,
+          "orta_qiymet": 1104.2820028341994,
+          "medyan_kv_metr": 11.363636363636363
+        },
+        {
+          "metro": "Gənclik",
+          "elan_sayi": 3138,
+          "medyan_qiymet": 850.0,
+          "orta_qiymet": 1124.2173358827279,
+          "medyan_kv_metr": 11.333333333333334
+        },
+        {
+          "metro": "Dərnəgül",
+          "elan_sayi": 845,
+          "medyan_qiymet": 800.0,
+          "orta_qiymet": 859.3242603550295,
+          "medyan_kv_metr": 11.176470588235293
+        },
+        {
+          "metro": "20 Yanvar",
+          "elan_sayi": 2685,
+          "medyan_qiymet": 700.0,
+          "orta_qiymet": 785.6428305400373,
+          "medyan_kv_metr": 10.897435897435898
+        },
+        {
+          "metro": "Nəriman Nərimanov",
+          "elan_sayi": 5213,
+          "medyan_qiymet": 850.0,
+          "orta_qiymet": 980.6865528486476,
+          "medyan_kv_metr": 10.76923076923077
+        },
+        {
+          "metro": "Koroğlu",
+          "elan_sayi": 506,
+          "medyan_qiymet": 900.0,
+          "orta_qiymet": 1084.8695652173913,
+          "medyan_kv_metr": 10.76923076923077
+        },
+        {
+          "metro": "Qara Qarayev",
+          "elan_sayi": 2051,
+          "medyan_qiymet": 700.0,
+          "orta_qiymet": 777.0039005363237,
+          "medyan_kv_metr": 10.0
+        },
+        {
+          "metro": "",
+          "elan_sayi": 213629,
+          "medyan_qiymet": 800.0,
+          "orta_qiymet": 1150.8115518024238,
+          "medyan_kv_metr": 10.0
+        },
+        {
+          "metro": "İnşaatçılar",
+          "elan_sayi": 3146,
+          "medyan_qiymet": 700.0,
+          "orta_qiymet": 764.7320406865862,
+          "medyan_kv_metr": 10.0
+        },
+        {
+          "metro": "Memar Əcəmi",
+          "elan_sayi": 2178,
+          "medyan_qiymet": 600.0,
+          "orta_qiymet": 723.5964187327824,
+          "medyan_kv_metr": 10.0
+        },
+        {
+          "metro": "Neftçilər",
+          "elan_sayi": 1651,
+          "medyan_qiymet": 650.0,
+          "orta_qiymet": 690.3034524530588,
+          "medyan_kv_metr": 9.782608695652174
+        },
+        {
+          "metro": "8 Noyabr",
+          "elan_sayi": 1100,
+          "medyan_qiymet": 850.0,
+          "orta_qiymet": 996.8036363636363,
+          "medyan_kv_metr": 9.646938775510204
+        },
+        {
+          "metro": "Azadlıq prospekti",
+          "elan_sayi": 1352,
+          "medyan_qiymet": 700.0,
+          "orta_qiymet": 807.7995562130177,
+          "medyan_kv_metr": 9.33956386292835
+        },
+        {
+          "metro": "Nəsimi",
+          "elan_sayi": 688,
+          "medyan_qiymet": 650.0,
+          "orta_qiymet": 732.3255813953489,
+          "medyan_kv_metr": 9.217621385706492
+        },
+        {
+          "metro": "Xalqlar Dostluğu",
+          "elan_sayi": 1106,
+          "medyan_qiymet": 600.0,
+          "orta_qiymet": 647.5786618444846,
+          "medyan_kv_metr": 9.166666666666666
+        },
+        {
+          "metro": "Avtovağzal",
+          "elan_sayi": 145,
+          "medyan_qiymet": 570.0,
+          "orta_qiymet": 669.6551724137931,
+          "medyan_kv_metr": 8.6
+        },
+        {
+          "metro": "Əhmədli",
+          "elan_sayi": 1849,
+          "medyan_qiymet": 600.0,
+          "orta_qiymet": 706.0232558139535,
+          "medyan_kv_metr": 8.552631578947368
+        },
+        {
+          "metro": "Həzi Aslanov",
+          "elan_sayi": 3492,
+          "medyan_qiymet": 650.0,
+          "orta_qiymet": 675.0661512027491,
+          "medyan_kv_metr": 8.416133792424986
+        },
+        {
+          "metro": "Ulduz",
+          "elan_sayi": 41,
+          "medyan_qiymet": 1200.0,
+          "orta_qiymet": 1665.4878048780488,
+          "medyan_kv_metr": 7.9113924050632916
+        },
+        {
+          "metro": "Xocəsən",
+          "elan_sayi": 12,
+          "medyan_qiymet": 450.0,
+          "orta_qiymet": 455.8333333333333,
+          "medyan_kv_metr": 5.669642857142858
+        }
+      ]
+    },
+    "sahibkar_satis": {
+      "elan_sayi": 83099,
+      "holdout_metrikalar": {
+        "n_train": 66479,
+        "n_test": 16620,
+        "mae": 44668.67723827154,
+        "rmse": 81102.5443995792,
+        "medyan_xeta": 23381.67404245126,
+        "r2": 0.6844023642044227,
+        "mape": 27.57968088790255
+      },
+      "cv_metrikalar": {
+        "n": 83099,
+        "folds": 4,
+        "mae": 44228.09794051482,
+        "rmse": 79772.87653821235,
+        "medyan_xeta": 23146.78367619803,
+        "r2": 0.6918824467917477,
+        "mape": 27.164191546940774
+      },
+      "bazar": {
+        "elan_sayi": 83099,
+        "orta_qiymet": 177800.76216320292,
+        "medyan_qiymet": 140000.0,
+        "medyan_kv_metr_qiymet": 1590.0,
+        "min_qiymet": 33000.0,
+        "max_qiymet": 1000000.0
+      },
+      "bolge_uzre_qiymet": [
+        {
+          "district": "Nərimanov",
+          "elan_sayi": 2938,
+          "medyan_qiymet": 260000.0,
+          "orta_qiymet": 298054.7733151804,
+          "medyan_kv_metr": 3109.375
+        },
+        {
+          "district": "Nəsimi",
+          "elan_sayi": 3403,
+          "medyan_qiymet": 255000.0,
+          "orta_qiymet": 295487.84161034384,
+          "medyan_kv_metr": 3044.4444444444443
+        },
+        {
+          "district": "Yasamal",
+          "elan_sayi": 4641,
+          "medyan_qiymet": 215999.0,
+          "orta_qiymet": 245423.4766214178,
+          "medyan_kv_metr": 2800.0
+        },
+        {
+          "district": "Nizami",
+          "elan_sayi": 2590,
+          "medyan_qiymet": 190000.0,
+          "orta_qiymet": 215196.83667953667,
+          "medyan_kv_metr": 2657.1428571428573
+        },
+        {
+          "district": "Səbail",
+          "elan_sayi": 2036,
+          "medyan_qiymet": 250000.0,
+          "orta_qiymet": 293323.20088408643,
+          "medyan_kv_metr": 2500.0
+        },
+        {
+          "district": "Xətai",
+          "elan_sayi": 5379,
+          "medyan_qiymet": 185000.0,
+          "orta_qiymet": 225742.62725413646,
+          "medyan_kv_metr": 2371.4285714285716
+        },
+        {
+          "district": "Binəqədi",
+          "elan_sayi": 6299,
+          "medyan_qiymet": 160000.0,
+          "orta_qiymet": 182874.25210350848,
+          "medyan_kv_metr": 1838.0
+        },
+        {
+          "district": "Suraxanı",
+          "elan_sayi": 3872,
+          "medyan_qiymet": 130000.0,
+          "orta_qiymet": 143928.47469008266,
+          "medyan_kv_metr": 1600.0
+        },
+        {
+          "district": "Qaradağ",
+          "elan_sayi": 978,
+          "medyan_qiymet": 118000.0,
+          "orta_qiymet": 129771.68609406953,
+          "medyan_kv_metr": 1468.16799434016
+        },
+        {
+          "district": "Pirallahı",
+          "elan_sayi": 149,
+          "medyan_qiymet": 85000.0,
+          "orta_qiymet": 139351.6711409396,
+          "medyan_kv_metr": 1245.019920318725
+        },
+        {
+          "district": "",
+          "elan_sayi": 41025,
+          "medyan_qiymet": 108000.0,
+          "orta_qiymet": 138069.52504570383,
+          "medyan_kv_metr": 1216.6666666666667
+        },
+        {
+          "district": "Sabunçu",
+          "elan_sayi": 5493,
+          "medyan_qiymet": 140000.0,
+          "orta_qiymet": 180002.97396686694,
+          "medyan_kv_metr": 1200.0
+        },
+        {
+          "district": "Xəzər",
+          "elan_sayi": 4296,
+          "medyan_qiymet": 150000.0,
+          "orta_qiymet": 203918.76582867783,
+          "medyan_kv_metr": 1090.909090909091
+        }
+      ],
+      "metro_uzre_qiymet": [
+        {
+          "metro": "Elmlər Akademiyası",
+          "elan_sayi": 115,
+          "medyan_qiymet": 268000.0,
+          "orta_qiymet": 331315.652173913,
+          "medyan_kv_metr": 3562.5
+        },
+        {
+          "metro": "Gənclik",
+          "elan_sayi": 142,
+          "medyan_qiymet": 226500.0,
+          "orta_qiymet": 259714.96478873238,
+          "medyan_kv_metr": 3536.666666666667
+        },
+        {
+          "metro": "Nizami",
+          "elan_sayi": 91,
+          "medyan_qiymet": 275000.0,
+          "orta_qiymet": 325324.1758241758,
+          "medyan_kv_metr": 3316.6666666666665
+        },
+        {
+          "metro": "Sahil",
+          "elan_sayi": 31,
+          "medyan_qiymet": 220000.0,
+          "orta_qiymet": 280693.5483870968,
+          "medyan_kv_metr": 3308.823529411765
+        },
+        {
+          "metro": "28 May",
+          "elan_sayi": 169,
+          "medyan_qiymet": 270000.0,
+          "orta_qiymet": 309861.65680473374,
+          "medyan_kv_metr": 3297.2972972972975
+        },
+        {
+          "metro": "Şah İsmayıl Xətai",
+          "elan_sayi": 183,
+          "medyan_qiymet": 329000.0,
+          "orta_qiymet": 354727.3224043716,
+          "medyan_kv_metr": 3267.3267326732675
+        },
+        {
+          "metro": "Nəriman Nərimanov",
+          "elan_sayi": 208,
+          "medyan_qiymet": 245000.0,
+          "orta_qiymet": 301476.92307692306,
+          "medyan_kv_metr": 3229.4776119402986
+        },
+        {
+          "metro": "İçərişəhər",
+          "elan_sayi": 49,
+          "medyan_qiymet": 250000.0,
+          "orta_qiymet": 275816.32653061225,
+          "medyan_kv_metr": 3020.8333333333335
+        },
+        {
+          "metro": "Dərnəgül",
+          "elan_sayi": 76,
+          "medyan_qiymet": 188540.0,
+          "orta_qiymet": 189211.30263157896,
+          "medyan_kv_metr": 2847.7981356477017
+        },
+        {
+          "metro": "20 Yanvar",
+          "elan_sayi": 144,
+          "medyan_qiymet": 211500.0,
+          "orta_qiymet": 224046.75,
+          "medyan_kv_metr": 2818.6978640631432
+        },
+        {
+          "metro": "Qara Qarayev",
+          "elan_sayi": 205,
+          "medyan_qiymet": 228000.0,
+          "orta_qiymet": 243240.48780487804,
+          "medyan_kv_metr": 2811.3207547169814
+        },
+        {
+          "metro": "Ulduz",
+          "elan_sayi": 8,
+          "medyan_qiymet": 294350.0,
+          "orta_qiymet": 302550.0,
+          "medyan_kv_metr": 2797.016861219196
+        },
+        {
+          "metro": "8 Noyabr",
+          "elan_sayi": 52,
+          "medyan_qiymet": 275000.0,
+          "orta_qiymet": 278980.76923076925,
+          "medyan_kv_metr": 2722.441778405081
+        },
+        {
+          "metro": "Memar Əcəmi",
+          "elan_sayi": 185,
+          "medyan_qiymet": 174000.0,
+          "orta_qiymet": 203225.67567567568,
+          "medyan_kv_metr": 2701.3574660633485
+        },
+        {
+          "metro": "Neftçilər",
+          "elan_sayi": 256,
+          "medyan_qiymet": 172500.0,
+          "orta_qiymet": 193304.4921875,
+          "medyan_kv_metr": 2661.2903225806454
+        },
+        {
+          "metro": "İnşaatçılar",
+          "elan_sayi": 226,
+          "medyan_qiymet": 223500.0,
+          "orta_qiymet": 237401.63274336283,
+          "medyan_kv_metr": 2624.447391688771
+        },
+        {
+          "metro": "Azadlıq prospekti",
+          "elan_sayi": 207,
+          "medyan_qiymet": 220000.0,
+          "orta_qiymet": 231536.71497584542,
+          "medyan_kv_metr": 2500.0
+        },
+        {
+          "metro": "Xalqlar Dostluğu",
+          "elan_sayi": 200,
+          "medyan_qiymet": 175000.0,
+          "orta_qiymet": 190381.495,
+          "medyan_kv_metr": 2500.0
+        },
+        {
+          "metro": "Nəsimi",
+          "elan_sayi": 75,
+          "medyan_qiymet": 215000.0,
+          "orta_qiymet": 248660.0,
+          "medyan_kv_metr": 2451.923076923077
+        },
+        {
+          "metro": "Həzi Aslanov",
+          "elan_sayi": 408,
+          "medyan_qiymet": 178500.0,
+          "orta_qiymet": 194483.79411764705,
+          "medyan_kv_metr": 2396.2107821475915
+        },
+        {
+          "metro": "Əhmədli",
+          "elan_sayi": 253,
+          "medyan_qiymet": 176000.0,
+          "orta_qiymet": 184383.69565217392,
+          "medyan_kv_metr": 2333.3333333333335
+        },
+        {
+          "metro": "Avtovağzal",
+          "elan_sayi": 91,
+          "medyan_qiymet": 155000.0,
+          "orta_qiymet": 166743.95604395604,
+          "medyan_kv_metr": 2071.4285714285716
+        },
+        {
+          "metro": "",
+          "elan_sayi": 79557,
+          "medyan_qiymet": 138000.0,
+          "orta_qiymet": 175202.22304762623,
+          "medyan_kv_metr": 1540.0
+        },
+        {
+          "metro": "Koroğlu",
+          "elan_sayi": 153,
+          "medyan_qiymet": 145000.0,
+          "orta_qiymet": 179160.18954248365,
+          "medyan_kv_metr": 1100.0
+        },
+        {
+          "metro": "Xocəsən",
+          "elan_sayi": 12,
+          "medyan_qiymet": 120000.0,
+          "orta_qiymet": 137833.33333333334,
+          "medyan_kv_metr": 938.0952380952381
+        }
+      ]
+    },
+    "vasitechi_satis": {
+      "elan_sayi": 507155,
+      "holdout_metrikalar": {
+        "n_train": 405724,
+        "n_test": 101431,
+        "mae": 37082.27013115782,
+        "rmse": 64226.26059750912,
+        "medyan_xeta": 19637.607087861863,
+        "r2": 0.8422940129987605,
+        "mape": 16.638259524954535
+      },
+      "cv_metrikalar": {
+        "n": 507155,
+        "folds": 4,
+        "mae": 37298.329334568545,
+        "rmse": 65133.565076401435,
+        "medyan_xeta": 19761.32865990902,
+        "r2": 0.8389850781536837,
+        "mape": 16.75544469513896
+      },
+      "bazar": {
+        "elan_sayi": 507155,
+        "orta_qiymet": 234135.56000433792,
+        "medyan_qiymet": 195000.0,
+        "medyan_kv_metr_qiymet": 2400.0,
+        "min_qiymet": 33000.0,
+        "max_qiymet": 1000000.0
+      },
+      "bolge_uzre_qiymet": [
+        {
+          "district": "Nərimanov",
+          "elan_sayi": 47099,
+          "medyan_qiymet": 270000.0,
+          "orta_qiymet": 302851.9273232977,
+          "medyan_kv_metr": 3055.5555555555557
+        },
+        {
+          "district": "Nəsimi",
+          "elan_sayi": 54915,
+          "medyan_qiymet": 280000.0,
+          "orta_qiymet": 312403.66566511884,
+          "medyan_kv_metr": 2864.864864864865
+        },
+        {
+          "district": "Yasamal",
+          "elan_sayi": 68785,
+          "medyan_qiymet": 220000.0,
+          "orta_qiymet": 254911.690731991,
+          "medyan_kv_metr": 2714.285714285714
+        },
+        {
+          "district": "Səbail",
+          "elan_sayi": 14617,
+          "medyan_qiymet": 280000.0,
+          "orta_qiymet": 336598.96032017516,
+          "medyan_kv_metr": 2700.0
+        },
+        {
+          "district": "Nizami",
+          "elan_sayi": 33792,
+          "medyan_qiymet": 194000.0,
+          "orta_qiymet": 212864.15580610794,
+          "medyan_kv_metr": 2589.285714285714
+        },
+        {
+          "district": "Xətai",
+          "elan_sayi": 82417,
+          "medyan_qiymet": 205000.0,
+          "orta_qiymet": 252147.68667871918,
+          "medyan_kv_metr": 2468.75
+        },
+        {
+          "district": "Binəqədi",
+          "elan_sayi": 34909,
+          "medyan_qiymet": 188000.0,
+          "orta_qiymet": 204965.26901372138,
+          "medyan_kv_metr": 2384.6153846153848
+        },
+        {
+          "district": "Sabunçu",
+          "elan_sayi": 18694,
+          "medyan_qiymet": 165000.0,
+          "orta_qiymet": 208448.28832780573,
+          "medyan_kv_metr": 2076.4362220058424
+        },
+        {
+          "district": "Suraxanı",
+          "elan_sayi": 16469,
+          "medyan_qiymet": 134000.0,
+          "orta_qiymet": 142702.6024045176,
+          "medyan_kv_metr": 1865.3846153846155
+        },
+        {
+          "district": "",
+          "elan_sayi": 116703,
+          "medyan_qiymet": 118000.0,
+          "orta_qiymet": 155446.83202659743,
+          "medyan_kv_metr": 1588.235294117647
+        },
+        {
+          "district": "Xəzər",
+          "elan_sayi": 17797,
+          "medyan_qiymet": 245000.0,
+          "orta_qiymet": 293559.1350789459,
+          "medyan_kv_metr": 1500.0
+        },
+        {
+          "district": "Qaradağ",
+          "elan_sayi": 920,
+          "medyan_qiymet": 122000.0,
+          "orta_qiymet": 133166.425,
+          "medyan_kv_metr": 1430.1898734177216
+        },
+        {
+          "district": "Pirallahı",
+          "elan_sayi": 38,
+          "medyan_qiymet": 80450.0,
+          "orta_qiymet": 123418.42105263157,
+          "medyan_kv_metr": 1224.0802675585282
+        }
+      ],
+      "metro_uzre_qiymet": [
+        {
+          "metro": "Bakmil",
+          "elan_sayi": 18,
+          "medyan_qiymet": 329000.0,
+          "orta_qiymet": 365500.0,
+          "medyan_kv_metr": 4115.591397849463
+        },
+        {
+          "metro": "Sahil",
+          "elan_sayi": 419,
+          "medyan_qiymet": 295000.0,
+          "orta_qiymet": 360203.55131264916,
+          "medyan_kv_metr": 3744.68085106383
+        },
+        {
+          "metro": "İçərişəhər",
+          "elan_sayi": 561,
+          "medyan_qiymet": 250000.0,
+          "orta_qiymet": 334956.48484848486,
+          "medyan_kv_metr": 3323.809523809524
+        },
+        {
+          "metro": "28 May",
+          "elan_sayi": 4712,
+          "medyan_qiymet": 325000.0,
+          "orta_qiymet": 356664.90810696094,
+          "medyan_kv_metr": 3222.222222222222
+        },
+        {
+          "metro": "Elmlər Akademiyası",
+          "elan_sayi": 2385,
+          "medyan_qiymet": 292400.0,
+          "orta_qiymet": 333465.3249475891,
+          "medyan_kv_metr": 3181.818181818182
+        },
+        {
+          "metro": "Şah İsmayıl Xətai",
+          "elan_sayi": 5287,
+          "medyan_qiymet": 320000.0,
+          "orta_qiymet": 348285.94155475695,
+          "medyan_kv_metr": 3125.0
+        },
+        {
+          "metro": "Nəriman Nərimanov",
+          "elan_sayi": 4953,
+          "medyan_qiymet": 270000.0,
+          "orta_qiymet": 297295.76923076925,
+          "medyan_kv_metr": 3085.3658536585367
+        },
+        {
+          "metro": "Nizami",
+          "elan_sayi": 1990,
+          "medyan_qiymet": 340000.0,
+          "orta_qiymet": 348044.5879396985,
+          "medyan_kv_metr": 3066.6666666666665
+        },
+        {
+          "metro": "Gənclik",
+          "elan_sayi": 3385,
+          "medyan_qiymet": 243000.0,
+          "orta_qiymet": 289753.2437223043,
+          "medyan_kv_metr": 3041.6666666666665
+        },
+        {
+          "metro": "Qara Qarayev",
+          "elan_sayi": 3654,
+          "medyan_qiymet": 220000.0,
+          "orta_qiymet": 231695.8492063492,
+          "medyan_kv_metr": 2871.5488215488213
+        },
+        {
+          "metro": "20 Yanvar",
+          "elan_sayi": 2504,
+          "medyan_qiymet": 214000.0,
+          "orta_qiymet": 218804.02476038339,
+          "medyan_kv_metr": 2805.194805194805
+        },
+        {
+          "metro": "Koroğlu",
+          "elan_sayi": 784,
+          "medyan_qiymet": 230000.0,
+          "orta_qiymet": 257403.57525510204,
+          "medyan_kv_metr": 2759.5410356301286
+        },
+        {
+          "metro": "Ulduz",
+          "elan_sayi": 24,
+          "medyan_qiymet": 170440.0,
+          "orta_qiymet": 195463.33333333334,
+          "medyan_kv_metr": 2688.8888888888887
+        },
+        {
+          "metro": "8 Noyabr",
+          "elan_sayi": 1215,
+          "medyan_qiymet": 280000.0,
+          "orta_qiymet": 293063.8609053498,
+          "medyan_kv_metr": 2626.315789473684
+        },
+        {
+          "metro": "Azadlıq prospekti",
+          "elan_sayi": 2048,
+          "medyan_qiymet": 223000.0,
+          "orta_qiymet": 233305.47216796875,
+          "medyan_kv_metr": 2588.235294117647
+        },
+        {
+          "metro": "Memar Əcəmi",
+          "elan_sayi": 2778,
+          "medyan_qiymet": 178000.0,
+          "orta_qiymet": 200014.813174946,
+          "medyan_kv_metr": 2577.777777777778
+        },
+        {
+          "metro": "İnşaatçılar",
+          "elan_sayi": 4440,
+          "medyan_qiymet": 210000.0,
+          "orta_qiymet": 225374.6554054054,
+          "medyan_kv_metr": 2569.3376068376065
+        },
+        {
+          "metro": "Neftçilər",
+          "elan_sayi": 3605,
+          "medyan_qiymet": 182000.0,
+          "orta_qiymet": 199843.3148404993,
+          "medyan_kv_metr": 2545.4545454545455
+        },
+        {
+          "metro": "Dərnəgül",
+          "elan_sayi": 1120,
+          "medyan_qiymet": 167000.0,
+          "orta_qiymet": 162486.69642857142,
+          "medyan_kv_metr": 2443.141343669251
+        },
+        {
+          "metro": "Nəsimi",
+          "elan_sayi": 1100,
+          "medyan_qiymet": 222000.0,
+          "orta_qiymet": 247214.95727272728,
+          "medyan_kv_metr": 2422.222222222222
+        },
+        {
+          "metro": "Xalqlar Dostluğu",
+          "elan_sayi": 3346,
+          "medyan_qiymet": 185000.0,
+          "orta_qiymet": 192183.02151823073,
+          "medyan_kv_metr": 2411.764705882353
+        },
+        {
+          "metro": "Həzi Aslanov",
+          "elan_sayi": 9971,
+          "medyan_qiymet": 189000.0,
+          "orta_qiymet": 200663.77875839936,
+          "medyan_kv_metr": 2392.8571428571427
+        },
+        {
+          "metro": "",
+          "elan_sayi": 442525,
+          "medyan_qiymet": 189000.0,
+          "orta_qiymet": 231166.88797017117,
+          "medyan_kv_metr": 2338.4615384615386
+        },
+        {
+          "metro": "Əhmədli",
+          "elan_sayi": 3828,
+          "medyan_qiymet": 184000.0,
+          "orta_qiymet": 194006.12695924766,
+          "medyan_kv_metr": 2338.235294117647
+        },
+        {
+          "metro": "Avtovağzal",
+          "elan_sayi": 485,
+          "medyan_qiymet": 155000.0,
+          "orta_qiymet": 170380.61030927836,
+          "medyan_kv_metr": 2214.285714285714
+        },
+        {
+          "metro": "Xocəsən",
+          "elan_sayi": 18,
+          "medyan_qiymet": 155000.0,
+          "orta_qiymet": 141500.0,
+          "medyan_kv_metr": 830.7142857142858
+        }
+      ]
+    }
+  },
+  "saniye": 1229.7
+}
