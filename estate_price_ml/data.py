@@ -25,6 +25,8 @@ LISTING_COLUMNS = [
     "owner_type",
     "view_count",
     "published_at",
+    "title",
+    "description",
     "is_active",
 ]
 
@@ -44,7 +46,7 @@ def load_listings(db_path=None, csv_path=None, active_only=True):
     return df
 
 
-def load_region_tags(db_path=None, kinds=("district", "settlement", "metro", "landmark")):
+def load_region_tags(db_path=None, kinds=("metro", "landmark", "district", "settlement")):
     path = db_path or config.DB_PATH
     con = sqlite3.connect(path)
     try:
@@ -59,8 +61,22 @@ def load_region_tags(db_path=None, kinds=("district", "settlement", "metro", "la
 
 
 def attach_metro(df, tags):
+    out = df.copy()
+    if tags is None or len(tags) == 0:
+        out["metro"] = ""
+        return out
     metro = tags[tags["kind"] == "metro"].drop_duplicates("listing_id")
     metro = metro.rename(columns={"name": "metro", "listing_id": "id"})[["id", "metro"]]
-    merged = df.merge(metro, on="id", how="left")
-    merged["metro"] = merged["metro"].fillna("")
-    return merged
+    out = out.merge(metro, on="id", how="left")
+    out["metro"] = out["metro"].fillna("")
+    return out
+
+
+def load_with_metro(db_path=None, csv_path=None, active_only=True):
+    df = load_listings(db_path=db_path, csv_path=csv_path, active_only=active_only)
+    if csv_path:
+        if "metro" not in df.columns:
+            df["metro"] = ""
+        return df
+    tags = load_region_tags(db_path=db_path)
+    return attach_metro(df, tags)

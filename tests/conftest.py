@@ -41,6 +41,12 @@ def raw_df():
             "owner_type": owner,
             "view_count": rng.integers(0, 1500, n),
             "published_at": "2026-07-01T10:00:00Z",
+            "title": rng.choice(["Temirli menzil", "Yeni tikili", "Heyet evi"], n),
+            "description": rng.choice(
+                ["kombili ve mebelli", "temir olunub kupca var", "genis heyet"], n
+            ),
+            "metro": rng.choice(["", "Nizami", "Genclik", "28 May"], n),
             "is_active": 1,
         }
     )
+

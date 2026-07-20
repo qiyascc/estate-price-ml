@@ -30,7 +30,7 @@ def cmd_analyze(args):
 
 def cmd_predict(args):
     model = PriceModel.load(args.model)
-    frame = data.load_listings(csv_path=args.csv)
+    frame = data.load_with_metro(csv_path=args.csv)
     frame = features.clean(frame)
     frame = features.add_features(frame)
     predictions = model.predict(frame)

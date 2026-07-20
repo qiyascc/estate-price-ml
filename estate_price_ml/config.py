@@ -20,26 +20,42 @@ CURRENCY_TO_AZN = {
     "GBP": 2.15,
 }
 
+CITY_CENTER = (40.3777, 49.8920)
+
 TARGET = "price_azn"
+
+KEYWORD_FLAGS = {
+    "temirli": ["temir", "remont", "təmir", "yaxsi veziyyet", "yaxşı vəziyyət"],
+    "mebelli": ["mebel", "mébel", "əşya", "esya", "furnished"],
+    "yeni_tikili": ["yeni tikili", "novostroy", "yeni bina", "new building"],
+    "kombili": ["kombi", "kombili"],
+    "heyetli": ["həyət", "heyet", "bag ev", "bağ ev"],
+    "senedli": ["kupça", "kupca", "çıxarış", "cixaris", "şəhadətnamə", "sehadetname"],
+}
 
 NUMERIC_FEATURES = [
     "area",
     "rooms",
+    "area_per_room",
     "land_area",
     "floor_current",
     "floor_total",
     "floor_ratio",
     "log_area",
     "has_coords",
-    "view_count",
     "latitude",
     "longitude",
-]
+    "dist_center",
+    "view_count",
+    "age_days",
+    "is_daily_rent",
+] + list(KEYWORD_FLAGS.keys())
 
 CATEGORICAL_FEATURES = [
     "city",
     "district",
     "neighborhood",
+    "metro",
     "property_type",
     "source_key",
 ]
@@ -53,8 +69,23 @@ SEGMENTS = {
     "vasitechi_satis": {"deal_type": "sale", "owner_type": "agent"},
 }
 
+MODEL_PARAMS = {
+    "loss": "absolute_error",
+    "max_iter": 700,
+    "learning_rate": 0.05,
+    "max_leaf_nodes": 63,
+    "min_samples_leaf": 40,
+    "l2_regularization": 1.0,
+    "max_bins": 255,
+    "early_stopping": True,
+    "validation_fraction": 0.1,
+    "n_iter_no_change": 25,
+    "random_state": 42,
+}
+
 MIN_PRICE = 50.0
 MAX_PRICE = 100000000.0
 MIN_AREA = 5.0
 MAX_AREA = 100000.0
-MIN_SEGMENT_ROWS = 50
+MIN_SEGMENT_ROWS = 200
+CV_FOLDS = 4
