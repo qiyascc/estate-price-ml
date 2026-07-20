@@ -26,7 +26,6 @@ LISTING_COLUMNS = [
     "view_count",
     "published_at",
     "title",
-    "description",
     "is_active",
 ]
 
@@ -46,7 +45,7 @@ def load_listings(db_path=None, csv_path=None, active_only=True):
     return df
 
 
-def load_region_tags(db_path=None, kinds=("metro", "landmark", "district", "settlement")):
+def load_region_tags(db_path=None, kinds=("metro",)):
     path = db_path or config.DB_PATH
     con = sqlite3.connect(path)
     try:

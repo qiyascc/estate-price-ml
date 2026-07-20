@@ -58,6 +58,9 @@ def clean(df):
     out = add_price_azn(out)
     out = out[(out["price_azn"] >= config.MIN_PRICE) & (out["price_azn"] <= config.MAX_PRICE)]
     out = out[out["area"].notna() & (out["area"] >= config.MIN_AREA) & (out["area"] <= config.MAX_AREA)]
+    for col in config.CATEGORICAL_FEATURES:
+        if col in out.columns:
+            out[col] = out[col].astype("category")
     return out.reset_index(drop=True)
 
 

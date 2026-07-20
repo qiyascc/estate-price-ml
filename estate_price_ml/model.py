@@ -47,7 +47,7 @@ class PriceModel:
         frame = df[self._columns(df)].copy()
         for column in self.categorical_features:
             if column in frame.columns:
-                frame[column] = frame[column].fillna("").astype(str).astype("category")
+                frame[column] = frame[column].astype("object").fillna("").astype(str).astype("category")
         for column in self.numeric_features:
             if column in frame.columns:
                 frame[column] = frame[column].astype(float)

@@ -10,6 +10,9 @@ def prepare(db_path=None, csv_path=None):
     frame = data.load_with_metro(db_path=db_path, csv_path=csv_path)
     frame = features.clean(frame)
     frame = features.add_features(frame)
+    drop = [c for c in ("title", "description") if c in frame.columns]
+    if drop:
+        frame = frame.drop(columns=drop)
     frame = features.winsorize_target(frame, by="deal_type")
     return frame
 
