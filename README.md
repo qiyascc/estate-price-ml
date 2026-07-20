@@ -106,7 +106,7 @@ estate-price-ml estimate --model models/kiraye.joblib \
 Çıxış:
 
 ```
-848
+884
 ```
 
 ## Sorğuda verilə bilən sahələr
