@@ -58,10 +58,25 @@ def clean(df):
     out = add_price_azn(out)
     out = out[(out["price_azn"] >= config.MIN_PRICE) & (out["price_azn"] <= config.MAX_PRICE)]
     out = out[out["area"].notna() & (out["area"] >= config.MIN_AREA) & (out["area"] <= config.MAX_AREA)]
+    out = _drop_price_outliers(out)
     for col in config.CATEGORICAL_FEATURES:
         if col in out.columns:
             out[col] = out[col].astype("category")
     return out.reset_index(drop=True)
+
+
+def _drop_price_outliers(df):
+    out = df
+    deal = out["deal_type"] if "deal_type" in out.columns else pd.Series("", index=out.index)
+    per_m2 = out["price_azn"] / out["area"]
+    is_sale = deal == "sale"
+    is_rent = deal == "rent"
+    keep = pd.Series(True, index=out.index)
+    keep &= ~(is_sale & (out["price_azn"] < config.SALE_MIN_PRICE))
+    keep &= ~(is_rent & (out["price_azn"] < config.RENT_MIN_PRICE))
+    keep &= ~(is_sale & ((per_m2 < config.SALE_PPM_MIN) | (per_m2 > config.SALE_PPM_MAX)))
+    keep &= ~(is_rent & ((per_m2 < config.RENT_PPM_MIN) | (per_m2 > config.RENT_PPM_MAX)))
+    return out[keep]
 
 
 def _haversine(lat, lon, center_lat, center_lon):
