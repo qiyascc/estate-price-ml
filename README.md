@@ -1,92 +1,170 @@
 # estate-price-ml
 
-Azərbaycan əmlak bazarı üçün qiymət proqnozu və bazar analizi kitabxanası.
-Estate Scraper topladığı əmlak elanları üzərində işləyir. Modellər bölgə, otaq
-sayı, sahə, mərtəbə, əmlak növü və satıcı tipi kimi xüsusiyyətlərdən istifadə
-edərək qiyməti proqnozlaşdırır.
+Azərbaycan əmlak bazarı üçün qiymət təxmini modelləri. Rayon, otaq sayı, sahə,
+mərtəbə, metro və digər xüsusiyyətlərə əsasən əmlakın qiymətini proqnozlaşdırır.
+Modellər Estate Scraper topladığı canlı bazadakı 872 min real elan üzərində
+öyrədilib və hazır şəkildə `models/` qovluğunda yerləşir.
 
-## Nə edir
+## Hazır modellər
 
-Kitabxana əmlak bazarını dörd əsas seqmentdə analiz edir:
+| Fayl | Nə üçün | Dəqiqlik (R2) | Orta xəta (MAPE) |
+|------|---------|---------------|-------------------|
+| `models/satis.joblib` | Satış qiyməti | 0.82 | 18.5 faiz |
+| `models/vasitechi_satis.joblib` | Vasitəçi satışı | 0.84 | 16.6 faiz |
+| `models/sahibkar_satis.joblib` | Sahibkar satışı | 0.68 | 27.6 faiz |
+| `models/kiraye.joblib` | Aylıq kirayə | 0.63 | 37 faiz |
 
-1. Satışda olan əmlakların analizi
-2. Kirayədə olan əmlakların analizi
-3. Sahibkar tərəfindən satılan əmlakların analizi
-4. Vasitəçi tərəfindən satılan əmlakların analizi
-
-Hər seqment üçün ayrıca model qurulur və bölgə üzrə qiymət proqnozu verilir.
-Əlavə olaraq bazar hesabatları hazırlanır: bölgə üzrə medyan qiymət və kvadrat
-metr qiyməti, sahibkar ilə vasitəçi qiymət fərqi, kirayə gəlirliliyi.
-
-## Struktur
-
-```
-estate_price_ml/
-  config.py      parametrlər, valyuta məzənnələri, xüsusiyyət siyahıları, seqmentlər
-  data.py        SQLite bazadan və ya CSV faylından elanların oxunması
-  features.py    təmizləmə, valyuta çevrilməsi, xüsusiyyətlərin qurulması
-  segments.py    seqmentlərə bölmə (satış, kirayə, sahibkar, vasitəçi)
-  model.py       PriceModel: emal, HistGradientBoosting, metrikalar
-  analysis.py    bazar və bölgə analizi, kirayə gəlirliliyi
-  train.py       bütün seqmentlərin öyrədilməsi və hesabat
-  cli.py         əmr sətri: train, analyze, predict
-tests/           sintetik data üzərində vahid testlər
-```
+Bütün metrikalar `models/hesabat.json` faylındadır (bölgə üzrə qiymətlər,
+sahibkar ilə vasitəçi fərqi, kirayə gəlirliliyi də orada).
 
 ## Quraşdırma
 
 ```
+git clone https://github.com/qiyascc/estate-price-ml.git
+cd estate-price-ml
 python -m venv .venv
 source .venv/bin/activate
 pip install -e .
 ```
 
-Testlər üçün:
+## Sorğu, qiymət təxmini
+
+Ən sadə yol `estimate` funksiyasıdır. Əmlakın xüsusiyyətlərini verirsən, o da
+qiyməti qaytarır. Qiymət vermək lazım deyil, məhz onu proqnozlaşdırır.
+
+```python
+from estate_price_ml.estimate import estimate
+
+qiymet = estimate("models/kiraye.joblib", {
+    "deal_type": "rent",
+    "district": "Nərimanov",
+    "metro": "Nəriman Nərimanov",
+    "rooms": 2,
+    "area": 70,
+    "floor_current": 5,
+    "floor_total": 9,
+    "property_type": "Mənzil / Yeni tikili",
+})
+print(qiymet)
+```
+
+Nəticə:
 
 ```
-pip install pytest
-pytest
+[847.88]
 ```
 
-## İstifadə
+Yəni Nərimanovda 2 otaqlı 70 kvadratmetr mənzilin təxmini aylıq kirayəsi
+təxminən 848 AZN. Satış qiyməti üçün satış modelini işlət:
 
-Model öyrətmək:
+```python
+from estate_price_ml.estimate import estimate
+
+qiymet = estimate("models/satis.joblib", {
+    "deal_type": "sale",
+    "district": "Yasamal",
+    "rooms": 3,
+    "area": 100,
+    "floor_current": 7,
+    "floor_total": 12,
+    "property_type": "Mənzil / Yeni tikili",
+})
+print(qiymet)
+```
+
+Nəticə:
 
 ```
-estate-price-ml train --db /yol/db.sqlite3 --out models
+[241863.95]
 ```
 
-Bazar analizi:
+## Bir neçə əmlakı birdən
+
+`estimate` funksiyasına siyahı da vermək olar, hər biri üçün qiymət qaytarır:
+
+```python
+from estate_price_ml.estimate import estimate
+
+qiymetler = estimate("models/kiraye.joblib", [
+    {"district": "Nərimanov", "rooms": 1, "area": 45},
+    {"district": "Nərimanov", "rooms": 2, "area": 70},
+    {"district": "Yasamal", "rooms": 3, "area": 100},
+])
+print(qiymetler)
+```
+
+## Əmr sətrindən sorğu
+
+Tək əmlak üçün terminaldan da sorğu vermək olar:
+
+```
+estate-price-ml estimate --model models/kiraye.joblib \
+  --deal rent --district "Nərimanov" --metro "Nəriman Nərimanov" \
+  --rooms 2 --area 70 --floor 5 --floors 9
+```
+
+Çıxış:
+
+```
+848
+```
+
+## Sorğuda verilə bilən sahələr
+
+Nə qədər çox məlumat versən, təxmin bir o qədər dəqiqdir. Heç biri məcburi
+deyil, verilməyənlər üçün boş dəyər götürülür.
+
+| Sahə | İzah |
+|------|------|
+| `deal_type` | sale və ya rent |
+| `city` | şəhər |
+| `district` | rayon, məsələn Nərimanov |
+| `neighborhood` | qəsəbə |
+| `metro` | ən yaxın metro |
+| `property_type` | əmlak növü |
+| `rooms` | otaq sayı |
+| `area` | sahə kvadratmetrlə |
+| `floor_current` | mərtəbə |
+| `floor_total` | binanın ümumi mərtəbəsi |
+| `latitude`, `longitude` | koordinatlar |
+| `is_daily_rent` | günlük kirayədirsə 1 |
+
+Rayon və metro adları bazadakı yazılışla üst üstə düşməlidir, məsələn
+`Nərimanov`, `Nəriman Nərimanov`. Yanlış yazılış səhv saymaz, sadəcə o
+xüsusiyyət nəzərə alınmaz və model qalan məlumatlarla təxmin edər.
+
+## Bazar analizi
+
+Rayon üzrə orta qiymətlər, sahibkar ilə vasitəçi fərqi və kirayə gəlirliliyi
+üçün:
 
 ```
 estate-price-ml analyze --db /yol/db.sqlite3 --region district
 ```
 
-Hazır modellə proqnoz:
+## Modeli yenidən öyrətmək
+
+Yeni data ilə modelləri yenidən öyrətmək üçün baza yolunu ver:
 
 ```
-estate-price-ml predict --model models/satis.joblib --csv yeni_elanlar.csv
+estate-price-ml train --db /yol/db.sqlite3 --out models
 ```
 
-Baza yolu `ESTATEPRICEML_DB` mühit dəyişəni ilə də verilə bilər.
+Baza yolu `ESTATEPRICEML_DB` mühit dəyişəni ilə də verilə bilər. Öyrətmə
+nəticəsində `models/` qovluğunda dörd model faylı və `hesabat.json` yaranır.
+Baza repozitoriyaya daxil edilmir, yalnız öyrədilmiş modellər saxlanılır.
 
-## Xüsusiyyətlər
+## Necə işləyir
 
-Numerik xüsusiyyətlər: sahə, otaq sayı, torpaq sahəsi, mərtəbə, mərtəbə nisbəti,
-sahənin loqarifmi, koordinat mövcudluğu, baxış sayı, en və uzunluq.
+Model HistGradientBoosting alqoritmidir, qiymətin loqarifmi üzərində öyrədilir.
+Xüsusiyyətlər: sahə, otaq sayı, otaq başına sahə, mərtəbə və mərtəbə nisbəti,
+koordinatlar və şəhər mərkəzinə məsafə, metro, rayon və qəsəbə, əmlak növü,
+başlıqdan çıxarılan açar sözlər. Bütün qiymətlər AZN valyutasına çevrilir.
+Satış və kirayə üçün ayrıca, sahibkar və vasitəçi üçün də ayrıca modellər var.
 
-Kateqorik xüsusiyyətlər: şəhər, rayon, qəsəbə, əmlak növü, mənbə.
+## Testlər
 
-Hədəf dəyişən qiymətdir. Bütün qiymətlər AZN valyutasına çevrilir və model
-loqarifmik qiymət üzərində öyrədilir. Qiymət və sahə üzrə kənar dəyərlər seqment
-daxilində budanır.
-
-## Metrikalar
-
-Hər model üçün MAE, RMSE, R2 və MAPE hesablanır. Nəticə `hesabat.json` faylına
-yazılır.
-
-## Qeyd
-
-Model faylları, hesabatlar və baza faylları repozitoriyaya daxil edilmir.
-Kitabxana yalnız kod və testlərdən ibarətdir.
+```
+pip install pytest
+pytest
+```
